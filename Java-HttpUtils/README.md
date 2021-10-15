@@ -19,9 +19,11 @@ Exemplos: https://github.com/arj-mat/Utilidades/tree/master/Java-HttpUtils/sampl
 
 Este é o objeto sempre retornado ao realizar uma requisição Http.
 
-Nota: se o tipo do resultado não for especificado, o tipo padrão será `LinkedTreeMap<String, Object`, provido pelo Gson.
+#### Notas
 
-Nota: se uma requisição falhar antes da conexão Http, o status será -1.
+1.  Se o tipo do resultado não for especificado, o tipo padrão será `LinkedTreeMap<String, Object`, provido pelo Gson.
+2. Se uma requisição falhar antes da conexão Http, o status será -1.
+3.  O JSON recebido só será processado e armazenado na propriedade `data` caso o código de status da resposta seja 200 ou 204.
 
 | Propriedade | Tipo                                                        |
 | :---------- | ----------------------------------------------------------- |
