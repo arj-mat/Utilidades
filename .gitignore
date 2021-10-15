@@ -1,0 +1,56 @@
+HELP.md
+!**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/test/
+!**/src/test-classes/
+!**/node_modules/
+SecureVars
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Maxres.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Default.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$High.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Item.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Localized.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Maxres.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Medium.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$PageInfo.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Snippet.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Standard.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Default.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$High.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Item.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Localized.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Maxres.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Medium.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$PageInfo.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Snippet.class
+Java-HttpUtils/target/test-classes/YoutubeVideoDTO$Standard.class
