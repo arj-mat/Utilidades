@@ -2,7 +2,9 @@
 
 ### Introdução
 
-Biblioteca para requisições Http que consomem resultados JSON.
+Biblioteca de requisições Http síncronas, para enviar/obter objetos JSON utilizando Google Gson.
+
+Adicionalmente, também permite o envio de requisições POST ou PUT com conteúdo transformado em formulário HTML (encoded form).
 
 Exemplos: https://github.com/arj-mat/Utilidades/tree/master/Java-HttpUtils/samples
 
@@ -13,11 +15,13 @@ Exemplos: https://github.com/arj-mat/Utilidades/tree/master/Java-HttpUtils/sampl
 
 ### Documentação
 
-#### Objeto HttpResponseEntity
+#### Objeto HttpResponseEntity&lt;TipoResultado>
 
-Retornado ao realizar uma requisição Http.
+Este é o objeto sempre retornado ao realizar uma requisição Http.
 
 Nota: se o tipo do resultado não for especificado, o tipo padrão será `LinkedTreeMap<String, Object`, provido pelo Gson.
+
+Nota: se uma requisição falhar antes da conexão Http, o status será -1.
 
 | Propriedade | Tipo                                                        |
 | :---------- | ----------------------------------------------------------- |
