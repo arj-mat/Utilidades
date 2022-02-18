@@ -20,6 +20,6 @@ $chain(new Date())
     .setSeconds(0)
     .setMilliseconds(0)
     .$unchain()
-    .getTime();
+    .toLocaleTimeString('pt-BR');
 
-// 1645153200000
+// '00:00:00'
