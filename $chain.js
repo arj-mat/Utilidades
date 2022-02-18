@@ -6,7 +6,8 @@ function $chain(target) {
     for(let method of Object.getOwnPropertyNames(target.constructor.prototype)) 
        if (typeof target[method] == 'function')
             methods[method] = (...args) => {
-                target[method](...args); return methods
+                target[method](...args); 
+                return methods;
             };
 
     return methods;
