@@ -1,6 +1,6 @@
-function $chain(target) {
+function chainAccess(target) {
     let methods = {
-        $unchain: () => target
+        unchain: () => target
     };
     
     for(let method of Object.getOwnPropertyNames(target.constructor.prototype)) 
@@ -15,12 +15,12 @@ function $chain(target) {
 
 // Exemplo:
 
-$chain(new Date())
+chainAccess(new Date())
     .setHours(0)
     .setMinutes(0)
     .setSeconds(0)
     .setMilliseconds(0)
-    .$unchain()
+    .unchain()
     .toLocaleTimeString('pt-BR');
 
 // '00:00:00'
